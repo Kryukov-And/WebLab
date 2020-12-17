@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Крюков Андрей M33011</title>
+    <meta name="description" content="Personal page for Web development lab">
+    <meta name="keywords" content="html, development, Java, C++, portfolio, lab">
+    <link rel="stylesheet" href="css/outline.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Личная страница</h1>
+        <h2>Крюков Андрей, студент 3 курса</h2>
+    </header>
+
+    <main>
+
+        <div class="mainPart">
+            <div class="skills">
+                <section>
+                    <h4>Мои навыки:</h4>
+                    <ul>
+                        <li>5 лет программирования на C++ в некоммерческих проектах</li>
+                        <li>1 год обучения и практики на Java</li>
+                        <li>Уверенные знания Алгоритмов и ООП</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Мои достижения:</h4>
+                    <dl>
+                        <dt>Занимал призовые места в олимпиадах по информатике и программированию</dt>
+                        <dd>Олимпиада информационные технологии, призер</dd>
+                        <dt>На данный момент учусь на третьем курсе</dt>
+                        <dd>Университет ИТМО, направление ИСИТ</dd>
+                    </dl>
+                </section>
+            </div>
+
+            <div class="examples">
+                <section>
+                    <h3>Пример моего кода</h3>
+                    <h4>Пузырьковая сортировка</h4>
+                    <pre><code>void bubbleSort(int arr[])
+{
+    int n = arr.length;
+    for (int i = 0; i < n - 1; i++)
+        for (int j = 0; j < n - i - 1; j++)
+            if (arr[j] > arr[j + 1])
+            {
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+}</code></pre>
+                </section>
+            </div>
+
+            <div class="aboutMe">
+                <h3>Обо мне</h3>
+
+                <h4>Тотемное животное:</h4>
+                <pre> 
+████▀▀▀▀▀▀▀▀█████
+▌┐▀░░░░░░░░░░▀┌▐█
+█▌░░░░░░░░░░░░░██
+█▒░░░░█░░░░░░█░▐█
+█▒▒░░░░░░◣░◢░░░█
+█▒▒▒░╰────┴──╯░█
+█▒▒▒════════▅▆██
+    </pre>
+
+                <h4>Любимая цитата:</h4>
+                <q><em>Дайте</em> человеку рыбу, и завтра он опять <strong>будет голоден</strong>. <em>Научите</em> его ловить рыбу, и он будет <strong>жить в достатке</strong> до конца жизни.</q><br />
+                <cite>Марта Джей Лоун "Общий рост"</cite>
+
+                <h4>Формулы успеха у меня нет, но вот Закон Архимеда и Формула Энштейна:</h4>
+                <div class="formula">
+                    F<sub>Арх</sub> = p<sub>жидкости</sub> * g * V<sub>тела</sub> <br />
+                    E = m * c<sup>2</sup>
+                </div>
+            </div>
+        </div>
+        <aside>
+            <div class="asideText">
+                <h4>TODO List</h4>
+                <dl>
+                    <li>Лабы по вебу</li>
+                    <li>Лабы по ml</li>
+                    <li>Codeforces по ml</li>
+                    <li>Онлайн курс</li>
+                    <li>Другие лабы</li>
+                    <li>Еще больше других лаб</li>
+                </dl>
+            </div>
+        </aside>
+    </main>
+
+
+    <footer>
+        <time datetime="10.12.2020">Последние изменения 10.12.2020</time>
+    </footer>
+</body>
+
+</html>
