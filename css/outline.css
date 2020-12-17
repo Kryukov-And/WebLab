@@ -29,7 +29,7 @@ html::after {
     z-index: -1;
 }
 
-nav, aside, .aboutMe, .skills, .examples {
+nav, aside, .facts, .skills, .examples {
     background-color: var(--fg_color_blue);
     border: 3px solid var(--border_color);
 }
